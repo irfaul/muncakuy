@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MuncaKuy</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body onload="init()">
+        <header>
+            <div class="menu-toggle" id="hamburger">
+                <i class="fa fa-bars"></i>
+            </div>
+            <div class="overlay"></div>
+            <div class="container">
+                <nav>
+                    <h1 class="logo"><a href="index.html">Munca<span>k</span>uy</a></h1>
+                    <ul>
+                        <li><a href="#mountain-list">Daftar Gunung</a></li>
+                        <li><a href="#cari-teman">Cari Teman</a></li>
+                        <li><a href="#buat-jadwal">Buat Jadwal</a></li>
+                    </ul>
+                </nav>
+                <div class="home">
+                    <div class="text-wrapper">
+                        <h1>Explore Gunung Jawa Tengah</h1>
+                        <p>Temukan kawan muncak agar petualanganmu penuh kesan</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div id="mountain-list" class="mount-list">
+                <div class="judul-content">
+                    <h2>Daftar Gunung</h2>
+                    <p>Berikut adalah beberapa gunung populer sebagai cek list pendakian yang ada di Jawa Tengah</p>
+                </div>
+                <div class="mount-container">
+                    <div class="card">
+                        <div class="imgBox">
+                            <img src="assets/g_merapi.jpg">
+                        </div>
+                        <div class="content">
+                            <h2>Merapi</h2>
+                            <p>Gunung api teraktif di Indonesia dengan ketinggian 2930 mdpl terletak di wilayah Boyolali Jawa Tengah dengan Jalur Selo sebagai jalur pendakian utama.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imgBox">
+                            <img src="assets/g_merbabu.jpg">
+                        </div>
+                        <div class="content">
+                            <h2>Merbabu</h2>
+                            <p>Gunung Api tipe strato yang memiliki ketinggian 3142 mdpl dan terkenal dengan keindahan padang savana yang indah dengan pemandangan Gunung Merapi didepannya.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imgBox">
+                            <img src="assets/g_lawu.jpg">
+                        </div>
+                        <div class="content">
+                            <h2>Lawu</h2>
+                            <p>Berada di kawasan populer tempat wisata Kabupaten Karanganyar, gunung ini memiliki ketinggian 3265 mdpl. Di puncak Lawu bakal bertemu pemilik warung legendaris Mbok Yem yang menyediakan berbagai kebutuhan logistik.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imgBox">
+                            <img src="assets/g_sumbing.jpg">
+                        </div>
+                        <div class="content">
+                            <h2>Sumbing</h2>
+                            <p>Gunung tertinggi kedua di Jawa Tengah dengan ketinggian 3371 mdpl. Gunung ini membentuk bentang alam gunung kembar bersama Gunung Sindoro. Terletak di tiga wilayah yaitu wonosobo, temanggung, dan magelang.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imgBox">
+                            <img src="assets/g_sindoro.jpg">
+                        </div>
+                        <div class="content">
+                            <h2>Sindoro</h2>
+                            <p>Gunung Sindoro memiliki ketinggian 3153 mdpl dan memiliki puncak yang sangat luas lebih dari beberapa kali ukuran stadion bola. Dipuncaknya kadang terasa bau belerang yang sangat menyengat saat kawah mengeluarkan asap.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imgBox">
+                            <img src="assets/g_slamet.jpg">
+                        </div>
+                        <div class="content">
+                            <h2>Slamet</h2>
+                            <p>Gunung tertinggi di Jawa Tengah dan tertinggi kedua di Pulau Jawa dengan ketinggian 3428 mdpl. Cukup populer sebagai sasaran pendakian meskipun medannya dikenal sulit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="cari-teman" class="find-people">
+                <div class="judul-content">
+                    <h2>Cari Teman</h2>
+                    <p>Alur buat jadwal muncak bareng untuk menemukan teman muncak.</p>
+                </div>
+                <div class="alur-container">
+                    <div class="box">
+                        <div class="alur-content">
+                            <img src="assets/icon_1.png">
+                            <p>Isi form dan tentukan tanggal pendakian, jangan lupa masukkan kontak yang bisa dihubungi.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="alur-content">
+                            <img src="assets/icon_2.png">
+                            <p>Pendaki menghubungi kontak untuk janjian pendakian.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="alur-content">
+                            <img src="assets/icon_3.png">
+                            <p>Tentukan meeting point.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="alur-content">
+                            <img src="assets/icon_4.png">
+                            <p>Go muncak bareng.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="buat-jadwal" class="booking">
+                <div class="judul-content">
+                    <h2>Buat Jadwal</h2>
+                    <p>Buat jadwal pendakianmu agar dilihat calon pendaki yang mau cari barengan.</p>
+                </div>
+                <div class="flex-jadwal">
+                    <div class="jadwal form">
+                            <p>Nama</p>
+                            <input type="text" id="name" placeholder="Masukkan nama anda">
+                            <p>Pendakian Gunung</p>
+                            <select id="myList">
+                                <option value="G. Merapi">G. Merapi</option>
+                                <option value="G. Merbabu">G. Merbabu</option>
+                                <option value="G. Lawu">G. Lawu</option>
+                                <option value="G. Sumbing">G. Sumbing</option>
+                                <option value="G. Sindoro">G. Sindoro</option>
+                                <option value="G. Slamet">G. Slamet</option>
+                            </select>
+                            <p>Tanggal Pendakian</p>
+                            <input type="date" id="myDate" value="YYYY-MM-DD">
+                            <p>No. HP</p>
+                            <input type="text" id="contact" placeholder="Masukkan Kontak"><br/><br/>
+                            <button class="button" onclick="submitPressed()">Submit</button>
+                    </div>
+                    <div class="jadwal history-list">
+                        <h3>Jadwal Pendakian</h3>
+                        <table id="hikeTable">
+                            <thead>
+                                <tr>
+                                    <th>Nama</th>
+                                    <th>Pendakian Gunung</th>
+                                    <th>Tanggal</th>
+                                    <th>kontak</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+        </main>
+        <footer>
+            <p>MuncaKuy &#169; 2020, All right reserved</p>
+        </footer>
+    </body>
+    <script src="script.js"></script>
+</html>
